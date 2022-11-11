@@ -1,0 +1,12 @@
+replicaCount: 1
+
+label: shop-app
+
+applicationPort: 5000
+svcPort: 80
+
+image:
+  name: shopping-svc
+  repository: rajak810
+  pullPolicy: IfNotPresent
+  tag: "0.1.0"

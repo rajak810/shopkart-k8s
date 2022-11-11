@@ -1,0 +1,8 @@
+apiVersion: v2
+name: shoppapp
+description: Helm chart for maintaining shooping-app
+type: application
+# chartVersion
+version: 0.1.0
+# DeploymentVersion
+appVersion: "0.1.0"
